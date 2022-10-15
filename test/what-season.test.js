@@ -214,6 +214,7 @@ describe('What season', () => {
                 () => getSeason(fakeDate)
             ], 'Invalid date!');
 
+            
             assert.strictEqual(res.every($ => $ === CORRECT_RESULT_MSG), true);
         });
 
